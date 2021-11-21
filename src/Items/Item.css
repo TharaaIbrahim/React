@@ -7,7 +7,7 @@
   margin: 1rem auto;
   background-color: #eae2b7;
 }
-.item_Container > img {
+.img_Title > img {
   border-radius: 2rem;
   width: 10%;
 }
@@ -15,6 +15,10 @@
   display: flex;
   align-items: center;
   margin: 0% auto;
+}
+.img_Title {
+  display: flex;
+  width: 70%;
 }
 .counter_controls > button {
   padding: 0.5rem;

@@ -22,8 +22,10 @@ class Item extends React.Component {
   render() {
     return (
       <div className="item_Container">
-        <img src={this.props.src} />
-        <h2 className="title">{this.props.title}</h2>
+        <div className="img_Title">
+          <img src={this.props.src} />
+          <h2 className="title">{this.props.title}</h2>
+        </div>
         <div className="counter_controls">
           <button onClick={this.increaseHandler}>+</button>
           <p>{this.state.count}</p>
