@@ -1,0 +1,27 @@
+.item_Container {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 2rem;
+  width: 70%;
+  margin: 1rem auto;
+  background-color: #eae2b7;
+}
+.item_Container > img {
+  border-radius: 2rem;
+  width: 10%;
+}
+.counter_controls {
+  display: flex;
+  align-items: center;
+  margin: 0% auto;
+}
+.counter_controls > button {
+  padding: 0.5rem;
+}
+.counter_controls > p {
+  margin: 0% 10%;
+}
+.title {
+  margin: 2rem;
+}

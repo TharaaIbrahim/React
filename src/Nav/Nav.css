@@ -1,0 +1,17 @@
+.nav_Style {
+  display: flex;
+  flex-direction: row;
+  background-color: #d62828;
+  padding: 1rem;
+  gap: 70%;
+  color: white;
+}
+.nav_Style > label {
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.total_Count {
+  padding: 1rem;
+  font-family: cursive;
+}
