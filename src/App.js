@@ -1,6 +1,7 @@
 import React from "react";
 import Item from "./Items/Item";
 import Nav from "./Nav/Nav";
+import "./App.css";
 
 class App extends React.Component {
   constructor() {
@@ -13,6 +14,7 @@ class App extends React.Component {
     { src: "frenchFries.png", title: "French Fries", price: "1 JD" },
     { src: "burger.png", title: "Burger", price: "2 JD" },
     { src: "pepsi.png", title: "Pepsi", price: "0.30 JD" },
+    { src: "sushi.png", title: "Sushi", price: "25 JD" },
   ];
 
   total_Inc = () => {
@@ -44,6 +46,7 @@ class App extends React.Component {
     return (
       <div>
         <Nav totalCount={this.state.totalCount} />
+        <h2 className="order_Title">Make An Order</h2>
         {this.items}
       </div>
     );

@@ -24,7 +24,10 @@ class Item extends React.Component {
       <div className="item_Container">
         <div className="img_Title">
           <img src={this.props.src} />
-          <h2 className="title">{this.props.title}</h2>
+          <div className="title-Price">
+            <h2 className="title">{this.props.title}</h2>
+            <h5 className="price">({this.props.price})</h5>
+          </div>
         </div>
         <div className="counter_controls">
           <button onClick={this.increaseHandler}>+</button>

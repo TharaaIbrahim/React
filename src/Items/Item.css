@@ -1,11 +1,16 @@
 .item_Container {
   display: flex;
   flex-direction: row;
-  border: 2px solid black;
+  border: 2px solid #1c5879;
   border-radius: 2rem;
   width: 70%;
   margin: 1rem auto;
   background-color: #eae2b7;
+  color: #1c5879;
+}
+.img_Title {
+  display: flex;
+  width: 70%;
 }
 .img_Title > img {
   border-radius: 2rem;
@@ -16,16 +21,18 @@
   align-items: center;
   margin: 0% auto;
 }
-.img_Title {
-  display: flex;
-  width: 70%;
-}
 .counter_controls > button {
   padding: 0.5rem;
+  color: white;
+  background-color: #1c5879;
 }
 .counter_controls > p {
   margin: 0% 10%;
 }
-.title {
+.title-Price {
   margin: 2rem;
+}
+.price {
+  margin-top: 0.5rem;
+  text-align: center;
 }
