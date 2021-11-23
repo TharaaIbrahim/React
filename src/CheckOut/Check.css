@@ -1,0 +1,14 @@
+.check_Style {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+  width: 50%;
+  margin: 0% auto;
+  color: #1c5879;
+  background-color: white;
+}
+.check_Style > h2,
+h3 {
+  margin: 1rem;
+}

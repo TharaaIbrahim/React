@@ -9,14 +9,14 @@ class Item extends React.Component {
   }
   increaseHandler = () => {
     this.setState({ count: this.state.count + 1 });
-    this.props.inc();
+    this.props.inc(this.props.title, this.props.price);
   };
   decreaseHandler = () => {
     if (this.state.count == 0) {
       this.setState({ count: 0 });
     } else {
       this.setState({ count: this.state.count - 1 });
-      this.props.dec();
+      this.props.dec(this.props.title, this.props.price);
     }
   };
   render() {
